@@ -38,8 +38,7 @@ Sebelum memulai, pastikan sudah menginstall:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/user-api.git
-cd user-api
+git clone https://github.com/lentakristina/developer_Test.git
 ```
 
 ### 2. Install Dependencies
@@ -141,8 +140,8 @@ Content-Type: application/json
 **Request Body:**
 ```json
 {
-  "name": "John Doe",
-  "email": "john@example.com",
+  "name": "Lenta",
+  "email": "lenta@example.com",
   "password": "password123"
 }
 ```
@@ -154,8 +153,8 @@ Content-Type: application/json
   "message": "User created successfully",
   "data": {
     "id": 1,
-    "name": "John Doe",
-    "email": "john@example.com",
+    "name": "Lenta",
+    "email": "lenta@example.com",
     "createdAt": "2024-01-20T10:30:00.000Z"
   }
 }
@@ -181,13 +180,13 @@ Content-Type: application/json
   "data": [
     {
       "id": 1,
-      "name": "John Doe",
-      "email": "john@example.com",
+      "name": "Lenta",
+      "email": "lenta@example.com",
       "created_at": "2024-01-20T10:30:00.000Z"
     },
     {
       "id": 2,
-      "name": "Jane Smith",
+      "name": "Jane",
       "email": "jane@example.com",
       "created_at": "2024-01-20T10:35:00.000Z"
     }
@@ -207,8 +206,8 @@ Content-Type: application/json
   "success": true,
   "data": {
     "id": 1,
-    "name": "John Doe",
-    "email": "john@example.com",
+    "name": "lenta",
+    "email": "lenta@example.com",
     "created_at": "2024-01-20T10:30:00.000Z"
   }
 }
@@ -235,8 +234,8 @@ Content-Type: application/json
   "message": "User deleted successfully",
   "data": {
     "id": 1,
-    "name": "John Doe",
-    "email": "john@example.com"
+    "name": "Lenta",
+    "email": "lenta@example.com"
   }
 }
 ```
@@ -252,8 +251,8 @@ Content-Type: application/json
 - Body (raw JSON):
 ```json
 {
-  "name": "John Doe",
-  "email": "john@example.com",
+  "name": "Lenta",
+  "email": "lenta@example.com",
   "password": "password123"
 }
 ```
@@ -276,7 +275,7 @@ Content-Type: application/json
 ```bash
 curl -X POST http://localhost:3000/api/users \
   -H "Content-Type: application/json" \
-  -d "{\"name\":\"John Doe\",\"email\":\"john@example.com\",\"password\":\"password123\"}"
+  -d "{\"name\":\"Lenta\",\"email\":\"lenta@example.com\",\"password\":\"password123\"}"
 ```
 
 **Get All Users:**
@@ -306,7 +305,7 @@ curl -X DELETE http://localhost:3000/api/users/1
 
 ### Email Format Examples
 
-- ✅ `john@example.com`
+- ✅ `lenta@example.com`
 - ✅ `user.name@company.co.id`
 - ✅ `test123@mail.com`
 - ❌ `userexample.com` (missing @)
