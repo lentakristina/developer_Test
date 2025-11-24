@@ -28,7 +28,7 @@ git clone https://github.com/lentakristina/developer_Test.git
 
 | Field | Type | Validasi | Contoh Valid |
 |-------|------|----------|--------------|
-| Nama Lengkap | Text | Wajib diisi | John Doe |
+| Nama Lengkap | Text | Wajib diisi | Lenta |
 | Email | Email | Format email valid | user@example.com |
 | Password | Password | Min 8 karakter | password123 |
 | Konfirmasi Password | Password | Harus sama dengan password | password123 |
