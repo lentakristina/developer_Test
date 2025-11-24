@@ -28,25 +28,6 @@ formula-calculator/
 
 ### Persyaratan
 - Node.js versi 12 atau lebih baru
-
-### Langkah Setup
-
-```bash
-# 1. Clone atau buat folder
-mkdir formula-calculator
-cd formula-calculator
-
-# 2. Buat file yang dibutuhkan
-touch formulaCalculator.js
-touch testFormula.js
-touch README.md
-
-# 3. Copy code ke masing-masing file
-
-# 4. Verifikasi Node.js
-node --version
-```
-
 ---
 
 ## 💻 Cara Menggunakan
