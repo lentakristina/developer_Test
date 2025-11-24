@@ -28,15 +28,11 @@ find-missing-number/
 
 ## 🚀 Instalasi & Setup
 
-### Persyaratan
-- Node.js versi 12 atau lebih baru
-- Terminal/Command Prompt
-
 ### Langkah Instalasi
 
 **1. Clone atau Download Repository**
 ```bash
-git clone <url-repository>
+git clone https://github.com/lentakristina/developer_Test.git
 cd find-missing-number
 ```
 
@@ -50,7 +46,7 @@ node --version
 
 ## 💻 Cara Menggunakan
 
-### **Metode 1: Test Interaktif (RECOMMENDED)** 🎮
+### **Metode 1: Test Interaktif** 🎮
 
 Program akan terus meminta input sampai Anda ketik `exit`. Cocok untuk testing berkali-kali.
 
@@ -156,29 +152,6 @@ node testCLI.js
 
 ---
 
-### **Metode 3: Import di Code Sendiri** 📦
-
-Gunakan fungsi `findMissingNumber` di project Anda sendiri.
-
-**Contoh:**
-```javascript
-const findMissingNumber = require('./findMissingNumber');
-
-// Test 1
-const result1 = findMissingNumber([3, 0, 2, 4]);
-console.log(result1);  // Output: 1
-
-// Test 2
-const result2 = findMissingNumber([3106, 3102, 3104, 3105, 3107]);
-console.log(result2);  // Output: 3103
-
-// Test 3
-const result3 = findMissingNumber([100, 102, 103, 104]);
-console.log(result3);  // Output: 101
-```
-
----
-
 ## ⚙️ Cara Kerja Algoritma
 
 ### Kompleksitas
@@ -263,17 +236,6 @@ Mencari angka yang hilang dari array berurutan.
 findMissingNumber([3, 0, 2, 4]);  // Returns: 1
 findMissingNumber([10, 11, 13]);   // Returns: 12
 ```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Silakan:
-1. Fork repository ini
-2. Buat branch baru (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push ke branch (`git push origin feature/AmazingFeature`)
-5. Buat Pull Request
 
 ---
 
