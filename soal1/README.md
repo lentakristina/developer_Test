@@ -21,7 +21,7 @@ Halaman web sederhana untuk pendaftaran pengguna dengan validasi form menggunaka
 ### Metode 1: Clone Repository 
 ```bash
 # 1. Clone repository ini
-git clone https://github.com/lentakristina/developer_test.git
+git clone https://github.com/lentakristina/developer_Test.git
 ```
 
 ## 📋 Field Form & Validasi
